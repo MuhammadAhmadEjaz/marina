@@ -1,0 +1,65 @@
+/* about.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-page {
+    padding: 20px;
+  }
+  
+  section {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .hero {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../assets/landingBG.jpg');  /* Use the actual image path */
+    color: white;
+    padding: 60px 0;
+  }
+  
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .history, .mission, .vision {
+    background-color: white;
+  }
+  
+  .team .ant-card-meta-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .team .ant-card-meta-description {
+    font-size: 16px;
+  }
+  

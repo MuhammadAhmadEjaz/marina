@@ -1,0 +1,68 @@
+/* Footer.css */
+.footer {
+    background-color: #001529;
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer h2, .footer h3 {
+    color: white;
+  }
+  
+  .footer p {
+    color: #ccc;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #1890ff;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #1890ff;
+  }
+  
+  .ant-form-item {
+    margin-bottom: 10px;
+  }
+  
+  .ant-input-affix-wrapper {
+    border-radius: 4px;
+  }
+  
+  .ant-btn-primary {
+    background-color: #1890ff;
+    border-color: #1890ff;
+    border-radius: 4px;
+  }
+  

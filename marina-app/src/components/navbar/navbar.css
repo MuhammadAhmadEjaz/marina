@@ -1,0 +1,61 @@
+/* Navbar.css */
+body {
+ margin: 0;
+ font-family: Arial, sans-serif;
+}
+
+.navbar {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #001529;
+ padding: 10px 20px;
+}
+
+.navbar-brand {
+ color: white;
+ font-size: 24px;
+}
+
+.navbar-links {
+ display: flex;
+ align-items: center;
+}
+
+.navbar-links a {
+    color: white;
+}
+
+.menu {
+ display: flex;
+ gap: 20px;
+ background-color: #001529;
+}
+
+.menu a {
+ text-decoration: none;
+}
+
+.menu-icon {
+ display: none;
+ color: white;
+}
+
+.drawer .ant-drawer-body {
+ padding: 0;
+}
+
+.drawer .ant-menu-item a {
+ color: black;
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 768px) {
+ .navbar-links {
+  display: none;
+ }
+
+ .menu-icon {
+  display: block;
+ }
+}
